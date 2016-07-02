@@ -125,7 +125,7 @@ if __name__ == '__main__':
 	strip = Adafruit_NeoPixel(LED_COUNT, LED_PIN, LED_FREQ_HZ, LED_DMA, LED_INVERT, LED_BRIGHTNESS)
 	# Intialize the library (must be called once before other functions).
 	strip.begin()
-
+	storm(strip)
 	print ('Press Ctrl-C to quit.')
 #	while True:
 		# Color wipe animations.
