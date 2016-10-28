@@ -126,8 +126,8 @@ if __name__ == '__main__':
 	strip = Adafruit_NeoPixel(LED_COUNT, LED_PIN, LED_FREQ_HZ, LED_DMA, LED_INVERT, LED_BRIGHTNESS)
         # Intialize the library (must be called once before other functions).
 	strip.begin()
-	orange = Color(25,255,0)
-        storm(strip,orange)
+	white = Color(255,255,255)
+        storm(strip, white)
 	#theaterChaseRainbow(strip)
-	#rainbowCycle(strip,1,3)
+#	rainbowCycle(strip,1,3)
 	print ('Press Ctrl-C to quit.')
